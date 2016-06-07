@@ -1,0 +1,42 @@
+{
+  "name": "pocketmobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "browser-sync": "latest",
+    "browserify": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-csslint": "^0.2.0",
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-imagemin": "latest",
+    "gulp-less": "latest",
+    "gulp-livereload": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-minify-html": "latest",
+    "gulp-newer": "^1.1.0",
+    "gulp-plumber": "latest",
+    "gulp-postcss": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "gulp-webserver": "latest",
+    "imagemin-pngquant": "latest",
+    "vinyl-buffer": "latest",
+    "vinyl-source-stream": "latest",
+    "gulp-cached" : "latest",
+    "gulp-remember" : "latest",
+    "gulp-plumber" : "latest",
+    "run-sequence" : "latest"
+
+  }
+}

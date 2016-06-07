@@ -1,0 +1,24 @@
+.color, h2, h4 {
+  border: 1px solid green; }
+
+h2, h4 {
+  color: red;
+  border-width: 3px; }
+
+h4 {
+  border-color: red; }
+
+li {
+  border: 1px solid #333;
+  margin: 5px 0 0; }
+
+ul {
+  padding: 30px 0; }
+
+li {
+  border-radius: 10px;
+  box-sizing: border-box; }
+
+ul {
+  border-radius: 10px;
+  box-sizing: border-box; }

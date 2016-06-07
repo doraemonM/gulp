@@ -1,0 +1,59 @@
+/*체크박스*/
+input[type=radio]{
+vertical-align: middle;
+position: relative;
+bottom: -2px;
+vertical-align:-2px;
+}
+
+/* fontface */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/NanumGothic-Regular.eot');
+  src: url('../fonts/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/NanumGothic-Regular.woff2') format('woff2'),
+       url('../fonts/NanumGothic-Regular.woff') format('woff'),
+       url('../fonts/NanumGothic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NB';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/NanumGothic-Bold.eot');
+  src: url('../fonts/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/NanumGothic-Bold.woff2') format('woff2'),
+       url('../fonts/NanumGothic-Bold.woff') format('woff'),
+       url('../fonts/NanumGothic-Bold.ttf') format('truetype');
+}
+
+/*reset*/
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,a,button,select,img,a,input,label{margin:0;padding:0;}
+ul,ol,dl {list-style:none; }
+img,fieldset,iframe{border:0}
+legend{display:none;}
+img {border:0; vertical-align:middle; font-size:0; line-height:0;}
+em,address{font-style:normal}
+input,select,button{vertical-align:middle}
+a{text-decoration:none;border:0}
+table{border-spacing:0; border-collapse:collapse;}
+table caption{display:none;}
+button { border:0; padding:0; background:transparent; cursor:pointer; *overflow:visible; }
+button::-moz-focus-inner{border:0; padding: 0;}
+body{overflow:hidden;overflow-y:auto;overflow-x:auto;}
+body, html {width:100%; height:100%;}
+button::-moz-focus-inner{border:0; padding: 0;}
+
+/*공통 css*/
+h1,h2,h3,h4,h5,h6{font-weight:600;}
+strong{font-weight:600;}
+button{font-family:'Nanum Gothic','나눔고딕'; font-weight:600;}
+#wrap{font-family:'Nanum Gothic','나눔고딕'; font-weight:600; font-size:12px;}
+#wrap:after,
+#header:after,
+#contents:after,
+#footer:after,
+.introLogin:after,
+.margin0Auto:after{display:block; content:''; clear:both;}
